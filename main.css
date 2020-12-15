@@ -1,0 +1,32 @@
+/*CSS reset*/
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background: url(assets/freedom.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+.quote {
+  font-family: quicksand, serif;
+  font-size: 20px;
+  font-variant: small-caps;
+  margin: -30px;
+  padding: 5%;
+}
+h1 {
+  color: rgba(54, 44, 44, 0.9);
+  text-align: center;
+}
+.author {
+  margin: -20px;
+}
+p {
+  color: rgba(54, 44, 44, 1);
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.4em;
+}
